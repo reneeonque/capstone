@@ -23,6 +23,7 @@ html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
     background-color: black;
+    color: white;
 }
 
 /** Title Styles **/
@@ -108,7 +109,7 @@ figcaption {
 }
 
 .images{
-    position: fixed;
+    display: none;
     top: 0;
     z-index: 1;
     width: 100%;
@@ -141,12 +142,12 @@ figcaption {
 .slide .container {
     background-color: rgba(0, 0, 0, 0.65);
     color: #fff;
-    padding: 22px;
+    padding: 22px 35px 22px 22px;
     border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+}
+
+.slide .container .map{
+    /* mobile rules for the map */
 }
 
 /*********************************************************************
@@ -173,13 +174,19 @@ figcaption {
       }
     
       .images {
+        display: block;
         position: sticky;
       }
     
       .images img {
         height: 100vh;
-        width: auto;
+        width: 100%;
+        object-fit: cover;
       }
+
+      .slide .container .map{
+        display: none;
+    }
 }
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
