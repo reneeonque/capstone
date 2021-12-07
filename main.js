@@ -2,7 +2,7 @@ const slides = document.querySelectorAll(".slide");
 
 slides.forEach(slide => {
     new Watch(slide, {
-        threshold: 0.6,
+        threshold: 0.1,
     }).inView(() => {
         const image_id = slide.dataset.image;
             const image_div = document.querySelector(`[data-id='${image_id}']`);
