@@ -21,7 +21,7 @@ You will find this is far easier than the opposite task of using CSS to cram you
 body,
 html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-size: 20px;
+    font-size: 19px;
     background-color: black;
     color: white;
 }
@@ -35,6 +35,13 @@ html {
 /** Intro Styles **/
 .introduction {
     margin-bottom: 5px;
+}
+
+/** Caption Styles **/
+.caption {
+    font-size: 12px;
+    text-align: center;
+    color: white;
 }
 
 /** Conclusion Styles **/
@@ -187,8 +194,6 @@ figcaption {
     border-radius: 10px;
 }
 
-
-
 .slide .container .map{
     /* mobile rules for the map */
 }
@@ -236,8 +241,20 @@ figcaption {
         object-fit: cover;
       }
 
+      .opening {
+          width: 50%;
+          height: 50%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
       .slide .container .map{
         display: none;
+    }
+
+    .caption {
+        color: white;
     }
 }
 /*********************************************************************
