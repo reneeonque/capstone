@@ -30,6 +30,11 @@ html {
 .title {
     color: #ccb7e5;
     padding-top: 5px;
+    text-align: center;
+}
+
+.byline {
+    text-align: center;
 }
 
 /** Intro Styles **/
