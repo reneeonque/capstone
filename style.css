@@ -35,18 +35,33 @@ html {
 /** Intro Styles **/
 .introduction {
     margin-bottom: 5px;
+    padding-right: 22px; 
+    padding-left: 22px;
+    width    : 100%;
+    max-width: 800px;
+    margin   : 0 auto;
 }
 
 /** Caption Styles **/
-.caption {
-    font-size: 12px;
+.photocaption {
+    font-size: 15px;
     text-align: center;
     color: white;
+    margin: 0 auto;
+    width    : 100%;
+    max-width: 800px;
+    padding  : 0 10px;
 }
 
 /** Conclusion Styles **/
 .conclusion {
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 22px; 
+    padding-left: 22px;
+    width    : 100%;
+    max-width: 800px;
+    margin   : 0 auto;
 }
 
 /** RESPONSIVE IMAGES */
@@ -190,7 +205,9 @@ figcaption {
 .slide .container {
     background-color: rgba(0, 0, 0, 0.65);
     color: #fff;
-    padding: 22px 35px 22px 22px;
+    padding-right: 22px;
+    padding-left: 22px;
+    padding-top: 10px;
     border-radius: 10px;
 }
 
@@ -251,10 +268,6 @@ figcaption {
 
       .slide .container .map{
         display: none;
-    }
-
-    .caption {
-        color: white;
     }
 }
 /*********************************************************************
